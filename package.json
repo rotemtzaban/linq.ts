@@ -1,0 +1,27 @@
+{
+  "name": "linq.ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@types/node": "^10.1.2"
+  },
+  "devDependencies": {
+    "@types/benchmark": "^1.0.31",
+    "@types/chai": "^4.1.3",
+    "@types/mocha": "^5.2.0",
+    "benchmark": "^2.1.4",
+    "chai": "^4.1.2",
+    "mocha": "^6.2.1",
+    "ts-node": "^8.4.1",
+    "tslint": "^5.10.0",
+    "tslint-config-prettier": "^1.12.0",
+    "typescript": "^3.6.3"
+  },
+  "scripts": {
+    "test": "mocha -r ts-node/register spec/**/*.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,32 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "module": "commonjs",
+        "strict": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "target": "es2017",
+        "lib": [
+            "es5",
+            "es2015.iterable",
+            "es2015.collection",
+            "es2015.promise",
+            "es2015.symbol",
+            "es2015.symbol.wellknown",
+            "es2015.generator",
+            "es2016.array.include",
+            "esnext.asynciterable",
+            "dom",
+            "es2015"
+        ]
+    },
+    "include": [
+        "src/**/*",
+        "spec/**/*",
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+
+}
